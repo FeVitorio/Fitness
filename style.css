@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    font-family: "Arial";
+}
+
+.barra_superior {
+    border-bottom: 2px solid black ;
+    color: grey;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    font-size: 14px;
+}
+
+.container { 
+    width: 960px;  
+    margin: 0 auto;
+}
+
+nav {
+    color: grey;
+    font-size: 18px;
+    float: right;
+    margin-top: 100px;
+    
+}
+
+nav a { 
+    color: grey; 
+    text-decoration: none;
+}
+
+.btn_destaque {
+    background-color: lightpink;
+    color: black;
+    padding: 12px 40px;
+    border-radius: 3px;
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.sec01 {
+    height: 740px;
+    color: aquamarine;
+    background-image: url(./img/atletas.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sec01 p.titulo {
+    font-size: 30px;
+    padding-top: 80px;
+}
+
+.sec01 p {
+    font-size: 20px;
+    padding-bottom: 30px;
+    line-height: 120%;
+}
+
+
+.sec02 p {
+    font-size: 30px;
+    text-align: center;
+}
+
+.sec02 {
+    border-bottom: 2px solid black;
+    
+}
+
+.sec02 img {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sec03{
+    background-color: rgb(179, 191, 209);
+    background-image: url(./img/atleta.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 664px;
+}
+
+
+.sec03 p{
+    font-size: 48px;
+    line-height: 120%;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 40px; 
+}
+
+.direitos_reservados{
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+
+}
+
+.direitos_reservados a{
+    color: black;
+
+}
+
+.contato{
+    border-bottom: 2px solid black ;
+    color: grey;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    font-size: 14px;
+   
+}
+
+.contato a{
+    text-decoration: none;
+    color: grey;
+
+
+}
+
+label{
+    width: 100px;
+    display:inline-block;
+    line-height: 140%;
+    vertical-align: top;
+    
+}
+
+.fale{
+    height: 300px;
+    background-color: rgb(240, 240, 240);
+    padding: 100px;
+}
+
+
+/* Smartphones */
+@media screen and (max-width: 480px){
+    .barra_superior .container{
+       margin-left: 10px;
+   }
+    
+   
+   nav {
+       float: none;
+       margin-left: 10px;
+       
+   }
+    .sec01 p, .sec01 .btn_destaque{
+        margin-left: 20px;
+
+   }
+    .sec02 p { 
+        margin-left: 20px;
+        float: left;
+   }
+    .sec03 p, .sec03 .btn_destaque{
+    margin-left: 20px;
+
+   }
+
+   .contato {
+        margin-left: 10px
+   }
+
+   
+   }

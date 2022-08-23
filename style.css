@@ -136,6 +136,37 @@ label{
     padding: 100px;
 }
 
+.modal {
+    display: none;
+    position: fixed;
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    top: 50%;
+    margin-top: -100px;
+    left: 50%;
+    margin-left: -200px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.modal input[type=text] {
+    border: none;
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    background-color: #FAFAFA;
+    padding: 10px;
+
+}
+
+.modal a {
+    float: right ;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+
+}
 
 /* Smartphones */
 @media screen and (max-width: 480px){
@@ -168,3 +199,5 @@ label{
 
    
    }
+
+   
